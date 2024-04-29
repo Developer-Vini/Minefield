@@ -17,7 +17,6 @@
 		selectionArea (x, y) {
 			var _el = this;
 
-
 			return (
 				y >= _el.y * _el.w && y <= _el.y * _el.w + _el.w && x >= _el.x * _el.w && x <= _el.x * _el.w + _el.w
 			);
