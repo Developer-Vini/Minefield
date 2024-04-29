@@ -1,25 +1,21 @@
 
 
-class Celula {
-    constructor(x, y, w) {
-        // Constructor: Inicializa as propriedades da célula
-        this.x = x; // Coordenada x da célula
-        this.y = y; // Coordenada y da célula
-        this.w = w; // Largura da célula
 
-        this.flag = null; // Flag que indica se a célula tem uma bandeira
-        this.covered = true; // Flag que indica se a célula está coberta
+	class Celula {
+		constructor (x, y, w) {
+			this.x = x;
+			this.y = y;
+			this.w = w;
 
-        this.neighborsList = []; // Lista de vizinhos da célula
-        this.neighborsCount = 0; // Contador de vizinhos da célula (inicializado como 0)
-    }
+			this.flag    = null;
+			this.covered = true;
 
-    selectionArea(x, y) {
-        // Método para selecionar uma área
-        var _el = this; 
-        
-    }
-}
+			this.neighborsList  = [];
+			this.neighborsCount = 0;
+		}
+
+		selectionArea (x, y) {
+			var _el = this;
 
 
 			return (
